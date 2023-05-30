@@ -1,5 +1,4 @@
 repeat task.wait() until game:IsLoaded()
-repeat task.wait() until game:IsLoaded()
 
 _G.Scripts = {
     o = "bkjscajksadnj",
