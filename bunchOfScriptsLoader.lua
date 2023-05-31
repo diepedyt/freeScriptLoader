@@ -1,10 +1,10 @@
 repeat task.wait() until game:IsLoaded()
 
 _G.Scripts = {
-    o = "bkjscajksadnj",
+    o = "yeKdooGyreV",
     d = "j58UXW2wQh",
-    [8720980067] = {
-        ["Script 1"] = "good script"
+    [5956785391] = {
+        ["V$L Valynium"] = "https://raw.githubusercontent.com/XO-3S-CL-VCK-jf-3HDM/Products/main/Project-Slayers.lua"
     }
 
 }
