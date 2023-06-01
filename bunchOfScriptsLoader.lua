@@ -16,7 +16,7 @@ _G.Scripts = {
         ["Script 1"] = "https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.md"
     },
     [3311165597] = {
-        ["Script 1"] = "https://scriptblox.com/raw/Dragon-Blox-Ultimate-GUI-5571"
+        ["Best Full Auto farm"] = "https://scriptblox.com/raw/Dragon-Blox-Ultimate-GUI-5571"
     }
 }
 
