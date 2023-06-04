@@ -17,7 +17,7 @@ if _G.KeyInserted then
             end)
             ui.CreateSection(main, gameName)
             for i,v in pairs(v) do
-                ui.CreateButton(main, i ,function() loadstring(game:HttpGet(v))() end)
+                ui.CreateButton(main, i ,function() loadstring(game:HttpGet(v))() main:Destroy() end)
             end
         end
     end
