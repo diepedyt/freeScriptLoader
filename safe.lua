@@ -1,1 +1,24 @@
-repeat task.wait();until game:IsLoaded() local v0=loadstring(game:HttpGet("https://raw.githubusercontent.com/diepedyt/customLua/main/SimpleUiLib.lua"))();_G.KeyInserted=v0.CreateKeySystem((_G.Scripts.o:reverse()):lower());if _G.KeyInserted then local v1=v0.CreateMain();for v2,v3 in pairs(_G.Scripts) do if (type(v3)=="table") then local v4=0 -0 ;local v5;while true do if (v4==0) then v5=tostring(v2);pcall(function()v5=game:GetService("MarketplaceService"):GetProductInfo(v2).Name;end);v4=2 -1 ;end if (v4==(569 -(367 + 201))) then v0.CreateSection(v1,v5);for v7,v8 in pairs(v8) do v0.CreateButton(v1,v7,function()loadstring(game:HttpGet(v8))();end);end break;end end end end end
+
+--moonsec down when i uploaded this :rage:
+
+repeat task.wait() until game:IsLoaded()
+
+local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/diepedyt/customLua/main/SimpleUiLib.lua'))()
+
+_G.KeyInserted = ui.CreateKeySystem((_G.Scripts.o:reverse()):lower())
+
+if _G.KeyInserted then
+    local main = ui.CreateMain()
+    for i,v in pairs(_G.Scripts) do
+        if type(v) == "table" then
+            local gameName = tostring(i)
+            pcall(function()
+                gameName = game:GetService("MarketplaceService"):GetProductInfo(i).Name
+            end)
+            ui.CreateSection(main, gameName)
+            for i,v in pairs(v) do
+                ui.CreateButton(main, i ,function() loadstring(game:HttpGet(v))() end)
+            end
+        end
+    end
+end
