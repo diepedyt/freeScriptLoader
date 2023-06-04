@@ -4,7 +4,8 @@ _G.Scripts = {
     o = "yeKdooGyreV",
     d = "j58UXW2wQh",
     [5956785391] = {
-        ["V$L Valynium"] = "https://raw.githubusercontent.com/XO-3S-CL-VCK-jf-3HDM/Products/main/Project-Slayers.lua"
+        ["V$L Valynium"] = "https://raw.githubusercontent.com/XO-3S-CL-VCK-jf-3HDM/Products/main/Project-Slayers.lua",
+        ["Sylveon Hub"] = "https://raw.githubusercontent.com/ogamertv12/SylveonHub/main/NewLoader.lua"
     },
     [2753915549] = {
         ["Mukuro Hub - No Key System"] = "https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"
