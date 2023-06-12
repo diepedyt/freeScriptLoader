@@ -3,6 +3,9 @@ repeat task.wait() until game:IsLoaded()
 _G.Scripts = {
     o = "etaMyeKemosewA",
     d = "j58UXW2wQh",
+    [9447079542] = {
+        ["Unammed Hub"] = "https://raw.githubusercontent.com/Ner0ox/sexy-script-hub/main/Loader.lua"
+    },
     [5956785391] = {
         ["Trap Hub [BEST]"] = "https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua",
         ["V$L Valynium (not working)"] = "https://raw.githubusercontent.com/XO-3S-CL-VCK-jf-3HDM/Products/main/Project-Slayers.lua",
