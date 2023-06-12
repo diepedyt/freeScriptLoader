@@ -1,7 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 
 _G.Scripts = {
-    o = "yeKdooGyreV",
+    o = "etaMyeKemosewA",
     d = "j58UXW2wQh",
     [5956785391] = {
         ["Trap Hub [BEST]"] = "https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua",
