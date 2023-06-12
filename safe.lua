@@ -5,7 +5,7 @@ repeat task.wait() until game:IsLoaded()
 
 local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/diepedyt/customLua/main/SimpleUiLib.lua'))()
 
-_G.KeyInserted = ui.CreateKeySystem((_G.Scripts.o:reverse()):lower(), "discord.gg/j58UXW2wQh")
+_G.KeyInserted = ui.CreateKeySystem((_G.Scripts.o:reverse()):lower(), "bstlar.com/1r/Fia")
 
 if _G.KeyInserted then
     local main = ui.CreateMain()
