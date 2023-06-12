@@ -19,6 +19,9 @@ _G.Scripts = {
     },
     [3311165597] = {
         ["Best Full Auto farm"] = "https://scriptblox.com/raw/Dragon-Blox-Ultimate-GUI-5571"
+    },
+    [13085698987] = {
+        ["FREE AUTO FARM GUI"] = "https://raw.githubusercontent.com/mac2115/just-sped-game-script/main/Loader"
     }
 }
 
