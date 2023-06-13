@@ -3,6 +3,9 @@ repeat task.wait() until game:IsLoaded()
 _G.Scripts = {
     o = "etaMyeKemosewA",
     d = "j58UXW2wQh",
+    [12581593086] = {
+        ["Updated Gui v1.1"] = "https://raw.githubusercontent.com/mac2115/just-sped-game-script/main/BlueHeater"
+    },
     [11317651064] = {
         ["God Mode"] = "https://pastebin.com/raw/ZYtJmJQh",
         ["Damage Multiplier"] = "https://pastebin.com/raw/b2ytiqck",
