@@ -3,6 +3,11 @@ repeat task.wait() until game:IsLoaded()
 _G.Scripts = {
     o = "etaMyeKemosewA",
     d = "j58UXW2wQh",
+    [11317651064] = {
+        ["God Mode"] = "https://pastebin.com/raw/ZYtJmJQh",
+        ["Damage Multiplier"] = "https://pastebin.com/raw/b2ytiqck",
+        ["No Cooldown"] = "https://pastebin.com/raw/1iW05R9A"
+    },
     [3351674303] = {
         ["Free Auto Farm"] = "https://pastebin.com/raw/cSHQZGrS"
     },
