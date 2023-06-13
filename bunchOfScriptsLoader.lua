@@ -3,6 +3,9 @@ repeat task.wait() until game:IsLoaded()
 _G.Scripts = {
     o = "etaMyeKemosewA",
     d = "j58UXW2wQh",
+    [3351674303] = {
+        ["Free Auto Farm"] = "https://pastebin.com/raw/cSHQZGrS"
+    },
     [12218138312] = {
         ["Free Purchases Script"] = "https://pastebin.com/raw/ny1S2CAq"
     },
