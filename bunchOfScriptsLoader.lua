@@ -3,6 +3,9 @@ repeat task.wait() until game:IsLoaded()
 _G.Scripts = {
     o = "etaMyeKemosewA",
     d = "j58UXW2wQh",
+    [292439477] = {
+        ["Silent Aim"] = "https://pastebin.com/raw/gyXgnFyU"
+    },
     [9447079542] = {
         ["Unammed Hub"] = "https://raw.githubusercontent.com/Ner0ox/sexy-script-hub/main/Loader.lua"
     },
