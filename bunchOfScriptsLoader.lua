@@ -3,6 +3,15 @@ repeat task.wait() until game:IsLoaded()
 _G.Scripts = {
     o = "etaMyeKemosewA",
     d = "j58UXW2wQh",
+    [6872265039] = {
+        ["Vape v4"] = "https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"
+    },
+    [8304191830]  = {
+        ["Trap Hub (best)"] = "https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua"
+    },
+    [10449761463] = {
+        ["OP Player Farm"] = "https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"
+    },
     [12581593086] = {
         ["Updated Gui v1.1"] = "https://raw.githubusercontent.com/mac2115/just-sped-game-script/main/BlueHeater"
     },
