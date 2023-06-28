@@ -1,7 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 
 _G.Scripts = {
-    o = "etaMyeKemosewA",
+    o = "etaMyeKyzarC",
     d = "j58UXW2wQh",
     [6872265039] = {
         ["Vape v4"] = "https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"
