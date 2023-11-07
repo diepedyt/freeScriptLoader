@@ -10,5 +10,5 @@ _G.KeyInserted = ui.CreateKeySystem("link-hub.net/977929/script",nil,"Hub", "INP
 repeat task.wait() until _G.INPUT == _G.Scripts.o:reverse():lower()
 _G.DESTROYNOW = true
 
-loadstring(game:HttpGet(_G.Scripts[game.GameId]]1]))()
+loadstring(game:HttpGet(_G.Scripts[game.GameId][1]))()
 
