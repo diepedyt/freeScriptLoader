@@ -53,7 +53,7 @@ _G.Scripts = {
         ["FREE AUTO FARM GUI"] = "https://raw.githubusercontent.com/mac2115/just-sped-game-script/main/Loader"
     },
     [13772394625] = {
-    ["BEDOL HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()'
+    ["BEDOL HUB"] = 'https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua'
     ]
 }
 
