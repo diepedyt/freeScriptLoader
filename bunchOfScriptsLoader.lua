@@ -1,3 +1,6 @@
+
+warn("OK")
+
 repeat task.wait() until game:IsLoaded()
 
 _G.Scripts = {
