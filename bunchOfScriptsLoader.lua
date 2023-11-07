@@ -54,7 +54,7 @@ _G.Scripts = {
     },
     [13772394625] = {
     ["BEDOL HUB"] = 'https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua'
-    ]
+    }
 }
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/diepedyt/freeScriptLoader/main/safe.lua'))()
