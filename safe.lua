@@ -5,11 +5,13 @@ repeat task.wait() until game:IsLoaded()
 
 local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/diepedyt/customLua/main/SimpleUiLib.lua'))()
 
-_G.KeyInserted = ui.CreateKeySystem((_G.Scripts.o:reverse()):lower(), "link-hub.net/977929/script")
+_G.KeyInserted = ui.CreateKeySystem("link-hub.net/977929/script",nil,"Hub", "INPUT", "DESTROYNOW"    )
 
-if _G.KeyInserted then
+repeat task.wait() until _G.INPUT == _G.Scripts.o:reverse():lower()
+
     local main = ui.CreateMain()
-    for i,v in pairs(_G.Scripts) do
+
+for i,v in pairs(_G.Scripts) do
         if type(v) == "table" then
             local gameName = tostring(i)
             pcall(function()
@@ -25,5 +27,5 @@ if _G.KeyInserted then
                 end)
             end
         end
-    end
-end
+    
+
