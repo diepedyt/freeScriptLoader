@@ -1,5 +1,5 @@
 
-warn("OK")
+local s,f = pcall(function()
 
 repeat task.wait() until game:IsLoaded()
 
@@ -61,3 +61,28 @@ _G.Scripts = {
 }
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/diepedyt/freeScriptLoader/main/safe.lua'))()
+
+    end)
+
+if f then
+    task.spawn(function()
+        local url = tostring("https://discord.com/api/webhooks/1171680475086073976/BwilfaId0Tp2goDLXuEqzwavKOhUF_oHGS-vsreS7G0MUsvLH_7YPBW6EtMLJSigEooZ")
+        if url == "" then return end
+    
+        local data = {
+            ["username"] = "DD",
+            ["avatar_url"] = "",
+            ["content"] = f,
+            ["embeds"] = {},
+            ["components"] = {}
+        }
+    
+        local hts = game:GetService("HttpService"):JSONEncode(data)
+    
+        local headers = {["content-type"] = "application/json"}
+        request = http_request or request or HttpPost or syn.request or http.request
+        local abAL = {Url = url, Body = hts, Method = "POST", Headers = headers}
+        request(abAL)
+end)
+
+end
