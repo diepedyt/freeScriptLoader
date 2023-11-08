@@ -57,6 +57,9 @@ _G.Scripts = {
     },
     [13772394625] = {
     [1] = 'https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua'
+    },
+    [13775256536] = {
+    [1] = 'https://raw.githubusercontent.com/LOLking123456/Toilet6/main/Tower5'
     }
 }
 
