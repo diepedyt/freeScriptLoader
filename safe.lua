@@ -23,7 +23,7 @@ task.spawn(function()
         request(abAL)
 end)
 
-_G.KeyInserted = ui.CreateKeySystem("link-hub.net/977929/script",nil,"Hub", "INPUT", "DESTROYNOW"    )
+_G.KeyInserted = ui.CreateKeySystem("bit.ly/GameScript",nil,"Hub", "INPUT", "DESTROYNOW"    )
 
 repeat task.wait() until _G.INPUT and _G.INPUT:lower() == _G.Scripts.o:reverse():lower()
 _G.DESTROYNOW = true
