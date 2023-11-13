@@ -41,7 +41,7 @@ _G.Scripts = {
         ["Sylveon Hub"] = "https://raw.githubusercontent.com/ogamertv12/SylveonHub/main/NewLoader.lua"
     },
     [2753915549] = {
-        ["Mukuro Hub - No Key System"] = "https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"
+        [1] = "https://raw.githubusercontent.com/diepedyt/freeScriptLoader/main/bloxfruits.lua"
     },
     [5938036553] = {
         ["ESP - And More"] = "https://pastebin.com/raw/d3ZbwBei"
